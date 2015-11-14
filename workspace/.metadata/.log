@@ -322,3 +322,41 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2015-11-14 03:16:39.910
 !MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class com.ibm.xtools.uml.navigator.ModelServerElement
+!SESSION 2015-11-14 04:33:49.377 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows Server 2003 x86-32 20130306_140761 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR4_FP1_20130306_1011_B140761
+JIT  - r11.b03_20130131_32403ifx1
+GC   - R26_Java726_SR4_FP1_20130306_1011_B140761
+J9CL - 20130306_140761
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v90.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v90.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-11-14 04:34:04.141
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-11-14 04:34:04.288
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+!SESSION 2015-11-14 05:04:48.985 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows Server 2003 x86-32 20130306_140761 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR4_FP1_20130306_1011_B140761
+JIT  - r11.b03_20130131_32403ifx1
+GC   - R26_Java726_SR4_FP1_20130306_1011_B140761
+J9CL - 20130306_140761
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v90.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v90.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-11-14 05:05:16.114
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2015-11-14 05:05:16.545
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-11-14 05:05:46.267
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2015-11-14 05:05:46.277
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
