@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="OPEN_TYPE_DIALOG_SETTINGS">
+		<item value="true" key="Limit Search Results"/>
+		<item value="50" key="SEARCH_RESULTS_SIZE"/>
+		<item value="true" key="RESTRICT_SEARCH_RESULTS"/>
+		<item value="50" key="&amp;Limit number of matches to:"/>
+		<section name="DialogBoundsSettings">
+			<item value="430" key="DIALOG_WIDTH"/>
+			<item value="70" key="DIALOG_Y_ORIGIN"/>
+			<item value="749" key="DIALOG_X_ORIGIN"/>
+			<item value="690" key="DIALOG_HEIGHT"/>
+			<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+</section>

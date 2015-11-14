@@ -1,1 +1,3 @@
 # AiPSI
+
+Repo projektu AiPSI

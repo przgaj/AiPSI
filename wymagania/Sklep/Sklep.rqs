@@ -1,0 +1,16 @@
+
+[Project]
+Name=Sklep
+Description=
+Directory=C:\LabAiPSI\NSM_1_C\wymagania\Sklep\Sklep.rqs
+Owner=Unknown
+Owner Key=2
+GUID={BDF8BB20-64CD-4275-A67E-EFBF45E0CF6D}
+Key=1
+Revision number=1.0000
+Prefix=
+isVersioned=0
+
+[Rational Architect]
+EclipseElementProxiesPackageName=Eclipse Element Proxies
+
