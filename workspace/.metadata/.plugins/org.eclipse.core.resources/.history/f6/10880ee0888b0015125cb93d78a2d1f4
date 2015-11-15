@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+  <uml:Model xmi:id="_vy774nWhEeW9kaYLrmxGNA" name="Enterprise IT Design Model">
+    <eAnnotations xmi:id="_vy7743WhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78B3WhEeW9kaYLrmxGNA">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy775HWhEeW9kaYLrmxGNA" type="Freeform" name="${project} Design Overview">
+        <children xmi:type="notation:Shape" xmi:id="_vy775XWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Design Overview">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy775nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7753WhEeW9kaYLrmxGNA" type="Description"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy776HWhEeW9kaYLrmxGNA" x="636" y="318"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vy776XWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="Double-click on the packages to drill down into more detailed diagrams (note: the Design Contracts package does not contain its own 'default' diagram, so double-clicking that particular package will not do anything).  &#xD;&#xA;&#xD;&#xA;Delete this instructional note once you no longer need it." fillColor="13369343" lineColor="51455">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy776nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7763WhEeW9kaYLrmxGNA" type="Description"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_vy777HWhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy777XWhEeW9kaYLrmxGNA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy777nWhEeW9kaYLrmxGNA" x="1902" y="12363" width="16218" height="3298"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_vy7773WhEeW9kaYLrmxGNA" element="_vy79vXWhEeW9kaYLrmxGNA" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vy778HWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79vXWhEeW9kaYLrmxGNA">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_vy778XWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy778nWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79vXWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7783WhEeW9kaYLrmxGNA" type="Name" element="_vy79vXWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy779HWhEeW9kaYLrmxGNA" type="Parent"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy779XWhEeW9kaYLrmxGNA" type="PackageContents"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy779nWhEeW9kaYLrmxGNA" x="1902" y="2219"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_vy7793WhEeW9kaYLrmxGNA" element="_vy792XWhEeW9kaYLrmxGNA" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vy77-HWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy792XWhEeW9kaYLrmxGNA">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_vy77-XWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy77-nWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy792XWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy77-3WhEeW9kaYLrmxGNA" type="Name" element="_vy792XWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy77_HWhEeW9kaYLrmxGNA" type="Parent"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy77_XWhEeW9kaYLrmxGNA" type="PackageContents"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy77_nWhEeW9kaYLrmxGNA" x="1902" y="6340"/>
+        </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_vy77_3WhEeW9kaYLrmxGNA" element="_vy79H3WhEeW9kaYLrmxGNA" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vy78AHWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79H3WhEeW9kaYLrmxGNA">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78AXWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78AnWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79H3WhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78A3WhEeW9kaYLrmxGNA" type="Name" element="_vy79H3WhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78BHWhEeW9kaYLrmxGNA" type="Parent"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78BXWhEeW9kaYLrmxGNA" type="PackageContents"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78BnWhEeW9kaYLrmxGNA" x="1902" y="8876"/>
+        </children>
+      </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78B3WhEeW9kaYLrmxGNA" type="Freeform" name="Instructions">
+        <children xmi:type="notation:Shape" xmi:id="_vy78CHWhEeW9kaYLrmxGNA" type="shadowRectangle" fontHeight="24" description="Design Modeling Template" fillColor="13369343" lineColor="51455">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78CXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78CnWhEeW9kaYLrmxGNA" type="Description"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_vy78C3WhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78DHWhEeW9kaYLrmxGNA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78DXWhEeW9kaYLrmxGNA" x="500" y="318" width="22037" height="1905"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vy78DnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="The template is set up to help you create content for an Enterprise IT Design model, where the structure of the model reflects the guidance provided in the Rational Software Architect Model Structure Guidelines found at &#xD;&#xA;&#xD;&#xA;&#x9;http://www.ibm.com/developerworks/rational/products/rsm/...&#xD;&#xA;&#xD;&#xA;A part of that guidance is to organize the design model around internally cohesive, loosely coupled functional groupings. Accordingly, within the template you will find:&#xD;&#xA;&#xD;&#xA;•&#x9;A preset package structure that segregates design contracts (specifications) from implementation designs&#xD;&#xA;&#xD;&#xA;•&#x9;A package named Viewpoints, populated with a couple of representative «perspective» packages in which to keep diagrams that depict architecturally significant and/or cross-cutting views of the model.   &#xD;&#xA;&#xD;&#xA;•&#x9;A «modelLibrary» package entitled “Design Building Blocks”.  This package contains chunks of model content that you can use to build the design more quickly.  The general techniques for using the building blocks are described in this diagram:&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;&#x9;Design Building Block Instructions (double-click the diagram link below)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;You can see the preset package structure reflected in the Project Explorer, as well as in this diagram:&#xD;&#xA;&#xD;&#xA;&#x9;${project} Design Overview (double-click the diagram link below)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;As a first step, using the Project Explorer you should select the root (&quot;${project} Design&quot;) package of the model file, right-click, select Find/Replace, and change the placeholder text ${project} to the name of your project. &#xD;&#xA;&#xD;&#xA;In brief, to create your design using the building blocks you will iteratively perform these activities:&#xD;&#xA;•&#x9;Using the provided building block  ( ${functional.area.specs} ) create &quot;functional area component specification&quot; sub-Packages within the &quot;Design Contracts::Component Specifications&quot; top-level Package&#xD;&#xA;•&#x9;Using the provided building block ( ${functional.area.ucrs} ) create &quot;functional area use-case realization&quot; sub-Packages within the &quot;Design Contracts::Design-Level Use Case Realizations&quot; top-level Package&#xD;&#xA;•&#x9;Using the provided building block ( ${use.case} ) populate the use-case realization packages with UML Collaborations and their owned behaviors (typically Interactions, as suggested by the building block, but could also be Activities or State Machines)&#xD;&#xA;•&#x9;Populate the specification Packages with specification elements&#xD;&#xA;•&#x9;Use the specification elements (as roles) as you further populate the use-case realization packages with behavioral diagrams and elements  &#xD;&#xA;•&#x9;Using the provided building block ( ${functional.area.impldesign} ) create &quot;functional area implementation design&quot; sub-Packages within the &quot;Implementation Designs&quot; top-level Package&#xD;&#xA;•&#x9;Populate the implementation design packages with implementation design diagrams and elements  &#xD;&#xA;that implement the specification Interfaces and realize the design contracts.  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;WHEN YOU NO LONGER NEED THESE INSTRUCTIONS:&#xD;&#xA;1. Delete this diagram (&quot;Instructions&quot;) from the model&#xD;&#xA;2. Make the &quot;Design Overview&quot; diagram the default diagram for the model (right click on it and select &quot;Make Default Diagram&quot;).&#xD;&#xA;" fillColor="13369343" lineColor="51455">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78D3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78EHWhEeW9kaYLrmxGNA" type="Description"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_vy78EXWhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78EnWhEeW9kaYLrmxGNA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78E3WhEeW9kaYLrmxGNA" x="500" y="2810" width="22038" height="24520"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vy78FHWhEeW9kaYLrmxGNA" element="_vy78JHWhEeW9kaYLrmxGNA">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78FXWhEeW9kaYLrmxGNA" type="DiagramName" element="_vy78JHWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78FnWhEeW9kaYLrmxGNA" type="Description" element="_vy78JHWhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_vy78F3WhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78GHWhEeW9kaYLrmxGNA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78GXWhEeW9kaYLrmxGNA" x="500" y="27348"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_vy78GnWhEeW9kaYLrmxGNA" element="_vy775HWhEeW9kaYLrmxGNA">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78G3WhEeW9kaYLrmxGNA" type="DiagramName" element="_vy775HWhEeW9kaYLrmxGNA"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78HHWhEeW9kaYLrmxGNA" type="Description" element="_vy775HWhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_vy78HXWhEeW9kaYLrmxGNA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78HnWhEeW9kaYLrmxGNA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78H3WhEeW9kaYLrmxGNA" x="6678" y="27348"/>
+        </children>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_vy78IHWhEeW9kaYLrmxGNA" source="uml2.isTemplate"/>
+    <packageImport xmi:id="_vy78IXWhEeW9kaYLrmxGNA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vy78InWhEeW9kaYLrmxGNA" name="Design Building Blocks">
+      <eAnnotations xmi:id="_vy78I3WhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78JHWhEeW9kaYLrmxGNA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78JHWhEeW9kaYLrmxGNA" type="Freeform" name="Design Building Block Instructions">
+          <children xmi:type="notation:Shape" xmi:id="_vy78JXWhEeW9kaYLrmxGNA" type="Text" fontHeight="14" description="Design Model Building Block Instructions">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78JnWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78J3WhEeW9kaYLrmxGNA" type="Description"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78KHWhEeW9kaYLrmxGNA" x="318" y="318"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78KXWhEeW9kaYLrmxGNA" element="_vy78eHWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy78KnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78eHWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78K3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78LHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78eHWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78LXWhEeW9kaYLrmxGNA" type="Name" element="_vy78eHWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78LnWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78L3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78MHWhEeW9kaYLrmxGNA" x="954" y="6042"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy78MXWhEeW9kaYLrmxGNA" type="Text" fontName="Courier New" description="TO USE A BUILDING BLOCK:&#xD;&#xA;&#xD;&#xA;1) CTRL-drag a building block element from &quot;Design Building Blocks&quot; to desired model location.   NOTE: You must perform the CTRL-drag operation via the Project Explorer, not via this diagram.&#xD;&#xA;&#xD;&#xA;2) Right-click over the new element, choose Find/Replace to change the placeholder text ${something} to the desired name.&#xD;&#xA;&#xD;&#xA;">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78MnWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78M3WhEeW9kaYLrmxGNA" type="Description"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78NHWhEeW9kaYLrmxGNA" x="1270" y="1270" width="13335" height="4126"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78NXWhEeW9kaYLrmxGNA" element="_vy78wXWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy78NnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78wXWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78N3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78OHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78wXWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78OXWhEeW9kaYLrmxGNA" type="Name" element="_vy78wXWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78OnWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78O3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78PHWhEeW9kaYLrmxGNA" x="954" y="8904"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78PXWhEeW9kaYLrmxGNA" element="_vy78znWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy78PnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78znWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78P3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78QHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78znWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78QXWhEeW9kaYLrmxGNA" type="Name" element="_vy78znWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78QnWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_vy78Q3WhEeW9kaYLrmxGNA" visible="false" type="AttributeCompartment" element="_vy78znWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_vy78RHWhEeW9kaYLrmxGNA"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78RXWhEeW9kaYLrmxGNA" type="CollaborationCompartment" element="_vy78znWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_vy78RnWhEeW9kaYLrmxGNA"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78R3WhEeW9kaYLrmxGNA" x="954" y="14628"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy78SHWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="A container for a collection of functionally related implementation design elements" fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78SXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78SnWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy78S3WhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78THWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78TXWhEeW9kaYLrmxGNA" x="17435" y="6023" width="8915" height="1650"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy78TnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="A container for the expressions of the design-level realizations of a collection of functionally related use cases " fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78T3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78UHWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy78UXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78UnWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78U3WhEeW9kaYLrmxGNA" x="17435" y="8242" width="8967" height="2061"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy78VHWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="The expression of the design-level realization of a use case.  The building block provides a structure that you may use for specifying sequence diagrams for the basic and named alternative and exceptional flows of the use case.  In a component-based or service-oriented architecture, the participants in the design-level use case realizations should consist solely of interfaces.  The use-case realizations become parts of the realization contracts of the components that particiapte in them " fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78VXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78VnWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy78V3WhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78WHWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78WXWhEeW9kaYLrmxGNA" x="12680" y="12997" width="8888" height="5373"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78WnWhEeW9kaYLrmxGNA" element="_vy79A3WhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy78W3WhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79A3WhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78XHWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78XXWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79A3WhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78XnWhEeW9kaYLrmxGNA" type="Name" element="_vy79A3WhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78X3WhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78YHWhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78YXWhEeW9kaYLrmxGNA" x="954" y="11448"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy78YnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="A container for a collection of functionally related component specifications" fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78Y3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78ZHWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy78ZXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78ZnWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78Z3WhEeW9kaYLrmxGNA" x="12680" y="10857" width="8889" height="1650"/>
+          </children>
+          <edges xmi:type="notation:Connector" xmi:id="_vy78aHWhEeW9kaYLrmxGNA" type="NoteAttachment" source="_vy78KXWhEeW9kaYLrmxGNA" target="_vy78SHWhEeW9kaYLrmxGNA">
+            <styles xmi:type="notation:ArrowStyle" xmi:id="_vy78aXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78anWhEeW9kaYLrmxGNA"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy78a3WhEeW9kaYLrmxGNA" points="[98, 2, -243, -5]$[238, 3, -103, -4]"/>
+          </edges>
+          <edges xmi:type="notation:Connector" xmi:id="_vy78bHWhEeW9kaYLrmxGNA" type="NoteAttachment" source="_vy78NXWhEeW9kaYLrmxGNA" target="_vy78TnWhEeW9kaYLrmxGNA">
+            <styles xmi:type="notation:ArrowStyle" xmi:id="_vy78bXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78bnWhEeW9kaYLrmxGNA"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy78b3WhEeW9kaYLrmxGNA" points="[105, 3, -228, -16]$[229, 3, -104, -16]"/>
+          </edges>
+          <edges xmi:type="notation:Connector" xmi:id="_vy78cHWhEeW9kaYLrmxGNA" type="NoteAttachment" source="_vy78PXWhEeW9kaYLrmxGNA" target="_vy78VHWhEeW9kaYLrmxGNA">
+            <styles xmi:type="notation:ArrowStyle" xmi:id="_vy78cXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78cnWhEeW9kaYLrmxGNA"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy78c3WhEeW9kaYLrmxGNA" points="[75, -4, -288, -77]$[403, -36, 40, -109]"/>
+          </edges>
+          <edges xmi:type="notation:Connector" xmi:id="_vy78dHWhEeW9kaYLrmxGNA" type="NoteAttachment" source="_vy78WnWhEeW9kaYLrmxGNA" target="_vy78YnWhEeW9kaYLrmxGNA">
+            <styles xmi:type="notation:ArrowStyle" xmi:id="_vy78dXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78dnWhEeW9kaYLrmxGNA"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy78d3WhEeW9kaYLrmxGNA" points="[87, 2, -266, 12]$[250, 5, -103, 15]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy78eHWhEeW9kaYLrmxGNA" name="${functional.area.impldesign}">
+        <eAnnotations xmi:id="_vy78eXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78enWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78enWhEeW9kaYLrmxGNA" type="Class" name="${functional.area.impldesign} Design Elements">
+            <children xmi:type="notation:Shape" xmi:id="_vy78e3WhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Design Elements">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78fHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78fXWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78fnWhEeW9kaYLrmxGNA" x="636" y="318"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy78f3WhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;Populate this diagram with the key impementation design elements for the functional area&#xD;&#xA;&#xD;&#xA;You can also double-click the packages to drill into layer-specific diagrams  &#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78gHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78gXWhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy78gnWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78g3WhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78hHWhEeW9kaYLrmxGNA" x="1908" y="6996" width="16218" height="4192"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78hXWhEeW9kaYLrmxGNA" element="_vy78unWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy78hnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78unWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78h3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78iHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78unWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78iXWhEeW9kaYLrmxGNA" type="Name" element="_vy78unWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78inWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78i3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78jHWhEeW9kaYLrmxGNA" x="7950" y="2862"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78jXWhEeW9kaYLrmxGNA" element="_vy78pXWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy78jnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78pXWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78j3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78kHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78pXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78kXWhEeW9kaYLrmxGNA" type="Name" element="_vy78pXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78knWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78k3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78lHWhEeW9kaYLrmxGNA" x="7950" y="4134"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78lXWhEeW9kaYLrmxGNA" element="_vy78rHWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy78lnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78rHWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78l3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78mHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78rHWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78mXWhEeW9kaYLrmxGNA" type="Name" element="_vy78rHWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78mnWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78m3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78nHWhEeW9kaYLrmxGNA" x="7950" y="1590"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78nXWhEeW9kaYLrmxGNA" element="_vy78s3WhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy78nnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy78s3WhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy78n3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78oHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy78s3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78oXWhEeW9kaYLrmxGNA" type="Name" element="_vy78s3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78onWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78o3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78pHWhEeW9kaYLrmxGNA" x="7950" y="5406"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy78pXWhEeW9kaYLrmxGNA" name="domain">
+          <eAnnotations xmi:id="_vy78pnWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78p3WhEeW9kaYLrmxGNA">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78p3WhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Domain Layer Design Elements">
+              <children xmi:type="notation:Shape" xmi:id="_vy78qHWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Domain Layer Design Elements">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78qXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78qnWhEeW9kaYLrmxGNA" type="Description"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78q3WhEeW9kaYLrmxGNA" x="635" y="317" width="10795" height="3492"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy78rHWhEeW9kaYLrmxGNA" name="presentation">
+          <eAnnotations xmi:id="_vy78rXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78rnWhEeW9kaYLrmxGNA">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78rnWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Presentation Layer Design Elements">
+              <children xmi:type="notation:Shape" xmi:id="_vy78r3WhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} &#xD;sentation Layer Design Elements for">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78sHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78sXWhEeW9kaYLrmxGNA" type="Description"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78snWhEeW9kaYLrmxGNA" x="952" y="635" width="13016" height="2222"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy78s3WhEeW9kaYLrmxGNA" name="resource">
+          <eAnnotations xmi:id="_vy78tHWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78tXWhEeW9kaYLrmxGNA">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78tXWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Resource Layer Design Elements">
+              <children xmi:type="notation:Shape" xmi:id="_vy78tnWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Resource Layer Design Elements">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78t3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78uHWhEeW9kaYLrmxGNA" type="Description"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78uXWhEeW9kaYLrmxGNA" x="952" y="317" width="12064" height="2222"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy78unWhEeW9kaYLrmxGNA" name="control">
+          <eAnnotations xmi:id="_vy78u3WhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78vHWhEeW9kaYLrmxGNA">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78vHWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Control Layer Design Elements">
+              <children xmi:type="notation:Shape" xmi:id="_vy78vXWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Control Layer Design Elements">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78vnWhEeW9kaYLrmxGNA" type="DiagramName"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78v3WhEeW9kaYLrmxGNA" type="Description"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78wHWhEeW9kaYLrmxGNA" x="952" y="317" width="10795" height="2540"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy78wXWhEeW9kaYLrmxGNA" name="${functional.area.ucrs}">
+        <eAnnotations xmi:id="_vy78wnWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy78w3WhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78w3WhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.ucrs} Use-Case Realizations">
+            <children xmi:type="notation:Shape" xmi:id="_vy78xHWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.ucrs} Use-Case Realizations">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78xXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78xnWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78x3WhEeW9kaYLrmxGNA" x="476" y="661"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy78yHWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="TO ADD A DESIGN LEVEL USE-CASE REALIZATION:&#xD;&#xA;&#xD;&#xA;1) Using the Project Explorer, CTRL-Drag the &quot;${use.case}&quot; from the &quot;Design Building Blocks&quot; package to the appropriate functional area sub-package within the Design Contracts::Design-Level Use-Case Realizations&quot; package.&#xD;&#xA;&#xD;&#xA;2) Right-click over the new realization and use Find/Replace to change &quot;${use.case}&quot; to the name of the use-case being realized.&#xD;&#xA;&#xD;&#xA;3) Drag the new realization to this diagram.&#xD;&#xA;&#xD;&#xA;4) Drag the corresponding Use-Case from the Use-Case Model to this diagram and create a Realization dependency from the realization to the use-case&#xD;&#xA;&#xD;&#xA;5) Specify the realization using behavioral (typically Sequence) diagrams that use design interfaces as the roles in the Collaboration&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78yXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78ynWhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy78y3WhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy78zHWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78zXWhEeW9kaYLrmxGNA" x="1908" y="2862" width="15264" height="9903"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_vy78znWhEeW9kaYLrmxGNA" name="${use.case}">
+        <eAnnotations xmi:id="_vy78z3WhEeW9kaYLrmxGNA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_vy780HWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy780XWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy780XWhEeW9kaYLrmxGNA" type="Freeform" name="${use.case} Realization Overview">
+            <children xmi:type="notation:Shape" xmi:id="_vy780nWhEeW9kaYLrmxGNA" element="_vy786HWhEeW9kaYLrmxGNA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7803WhEeW9kaYLrmxGNA" type="DiagramName" element="_vy786HWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy781HWhEeW9kaYLrmxGNA" type="Description" element="_vy786HWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy781XWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy781nWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy7813WhEeW9kaYLrmxGNA" x="2544" y="2226"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy782HWhEeW9kaYLrmxGNA" element="_vy789XWhEeW9kaYLrmxGNA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy782XWhEeW9kaYLrmxGNA" type="DiagramName" element="_vy789XWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy782nWhEeW9kaYLrmxGNA" type="Description" element="_vy789XWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy7823WhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy783HWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy783XWhEeW9kaYLrmxGNA" x="2544" y="3683"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy783nWhEeW9kaYLrmxGNA" element="_vy78_XWhEeW9kaYLrmxGNA">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7833WhEeW9kaYLrmxGNA" type="DiagramName" element="_vy78_XWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy784HWhEeW9kaYLrmxGNA" type="Description" element="_vy78_XWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy784XWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy784nWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy7843WhEeW9kaYLrmxGNA" x="2544" y="5088"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy785HWhEeW9kaYLrmxGNA" type="Text" fontHeight="14" description="${use.case} Realization Overview">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy785XWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy785nWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy7853WhEeW9kaYLrmxGNA" x="873" y="502"/>
+            </children>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy786HWhEeW9kaYLrmxGNA" type="Class" name="${use.case} Participants">
+            <children xmi:type="notation:Shape" xmi:id="_vy786XWhEeW9kaYLrmxGNA" type="Text" fontHeight="14" description="${use.case} Realization Participants">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy786nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7863WhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy787HWhEeW9kaYLrmxGNA" x="476" y="449"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy787XWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="TODO: drag participating analysis elements onto this diagram.  Alternatively, delete this diagram and use a structure diagram of the collaboration instead.  Delete this instructional note." fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy787nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7873WhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy788HWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy788XWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy788nWhEeW9kaYLrmxGNA" x="1272" y="2544" width="12063" height="2061"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vy7883WhEeW9kaYLrmxGNA" name="${use.case} - Basic Flow">
+          <eAnnotations xmi:id="_vy789HWhEeW9kaYLrmxGNA" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy789XWhEeW9kaYLrmxGNA" type="Sequence" element="_vy7883WhEeW9kaYLrmxGNA" name="${use.case} - Basic Flow" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_vy789nWhEeW9kaYLrmxGNA" type="uml2.Interaction" element="_vy7883WhEeW9kaYLrmxGNA" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy7893WhEeW9kaYLrmxGNA" type="interaction_compartment" element="_vy7883WhEeW9kaYLrmxGNA">
+                  <layoutConstraint xmi:type="notation:Ratio" xmi:id="_vy78-HWhEeW9kaYLrmxGNA"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy78-XWhEeW9kaYLrmxGNA" type="Name" element="_vy7883WhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy78-nWhEeW9kaYLrmxGNA"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vy78-3WhEeW9kaYLrmxGNA" name="${use.case} - Alternative Flow n">
+          <eAnnotations xmi:id="_vy78_HWhEeW9kaYLrmxGNA" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy78_XWhEeW9kaYLrmxGNA" type="Sequence" element="_vy78-3WhEeW9kaYLrmxGNA" name="${use.case} - Alternative Flow n" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_vy78_nWhEeW9kaYLrmxGNA" type="uml2.Interaction" element="_vy78-3WhEeW9kaYLrmxGNA" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy78_3WhEeW9kaYLrmxGNA" type="interaction_compartment" element="_vy78-3WhEeW9kaYLrmxGNA">
+                  <layoutConstraint xmi:type="notation:Ratio" xmi:id="_vy79AHWhEeW9kaYLrmxGNA"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79AXWhEeW9kaYLrmxGNA" type="Name" element="_vy78-3WhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79AnWhEeW9kaYLrmxGNA"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy79A3WhEeW9kaYLrmxGNA" name="${functional.area.specs}">
+        <eAnnotations xmi:id="_vy79BHWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79BXWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79BXWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.specs} Usage Contracts">
+            <children xmi:type="notation:Shape" xmi:id="_vy79BnWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.specs} Usage Contracts">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79B3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79CHWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79CXWhEeW9kaYLrmxGNA" x="635" y="317" width="15265" height="1270"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy79CnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;Populate this diagram with the Interfaces and &lt;&lt;specification>> Components for the functional area  &#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79C3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79DHWhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy79DXWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy79DnWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79D3WhEeW9kaYLrmxGNA" x="1908" y="3498" width="16218" height="2954"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79EHWhEeW9kaYLrmxGNA" element="_vy79GHWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79EXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79GHWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79EnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79E3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79GHWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79FHWhEeW9kaYLrmxGNA" type="Name" element="_vy79GHWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79FXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79FnWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79F3WhEeW9kaYLrmxGNA" x="5088" y="7314"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79GHWhEeW9kaYLrmxGNA" name="${functional.area.specs} Data Transfer Objects">
+          <eAnnotations xmi:id="_vy79GXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79GnWhEeW9kaYLrmxGNA">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79GnWhEeW9kaYLrmxGNA" type="Class" name="${functional.area.specs} Data Transfer Objects">
+              <children xmi:type="notation:Shape" xmi:id="_vy79G3WhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.specs} Data Transfer Objects">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79HHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79HXWhEeW9kaYLrmxGNA" type="Description"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79HnWhEeW9kaYLrmxGNA" x="635" y="317" width="17805" height="1587"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vy79H3WhEeW9kaYLrmxGNA" name="${project} Viewpoints">
+      <eAnnotations xmi:id="_vy79IHWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79IXWhEeW9kaYLrmxGNA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79IXWhEeW9kaYLrmxGNA" type="Freeform" name="${project} Viewpoints">
+          <children xmi:type="notation:Shape" xmi:id="_vy79InWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Viewpoints">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79I3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79JHWhEeW9kaYLrmxGNA" type="Description"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79JXWhEeW9kaYLrmxGNA" x="317" y="317" width="9207" height="1905"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79JnWhEeW9kaYLrmxGNA" element="_vy79PHWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy79J3WhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79PHWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79KHWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79KXWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79PHWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79KnWhEeW9kaYLrmxGNA" type="Name" element="_vy79PHWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79K3WhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79LHWhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79LXWhEeW9kaYLrmxGNA" x="7540" y="3677"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79LnWhEeW9kaYLrmxGNA" element="_vy79snWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vy79L3WhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79snWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79MHWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79MXWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79snWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79MnWhEeW9kaYLrmxGNA" type="Name" element="_vy79snWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79M3WhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79NHWhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79NXWhEeW9kaYLrmxGNA" x="7632" y="6042"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy79NnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="Create additional viewpoint packages as needed, and place them on this diagram.   You can then double-click on the packages to drill down into more detailed diagrams (specifically, the 'default diagram' of each package)   &#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79N3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79OHWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy79OXWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy79OnWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79O3WhEeW9kaYLrmxGNA" x="2853" y="16801" width="16218" height="3300"/>
+          </children>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy79PHWhEeW9kaYLrmxGNA" name="Architectural Layers">
+        <eAnnotations xmi:id="_vy79PXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79P3WhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79PnWhEeW9kaYLrmxGNA" type="Freeform" name="Key Domain Layer Elements"/>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79P3WhEeW9kaYLrmxGNA" type="Freeform" name="Layer Dependencies">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79QHWhEeW9kaYLrmxGNA" element="_vy79p3WhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79QXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79p3WhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79QnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79Q3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79p3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79RHWhEeW9kaYLrmxGNA" type="Name" element="_vy79p3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79RXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79RnWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79R3WhEeW9kaYLrmxGNA" x="3180" y="2226"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79SHWhEeW9kaYLrmxGNA" element="_vy79oXWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79SXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79oXWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79SnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79S3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79oXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79THWhEeW9kaYLrmxGNA" type="Name" element="_vy79oXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79TXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79TnWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79T3WhEeW9kaYLrmxGNA" x="8904" y="5724"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79UHWhEeW9kaYLrmxGNA" element="_vy79q3WhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79UXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79q3WhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79UnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79U3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79q3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79VHWhEeW9kaYLrmxGNA" type="Name" element="_vy79q3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79VXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79VnWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79V3WhEeW9kaYLrmxGNA" x="2544" y="9858"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy79WHWhEeW9kaYLrmxGNA" type="Text" fontHeight="14" description="Architectural Layer Dependencies">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79WXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79WnWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79W3WhEeW9kaYLrmxGNA" x="554" y="581"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79XHWhEeW9kaYLrmxGNA" element="_vy79rXWhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79XXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79rXWhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79XnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79X3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79rXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79YHWhEeW9kaYLrmxGNA" type="Name" element="_vy79rXWhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79YXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79YnWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79Y3WhEeW9kaYLrmxGNA" x="3180" y="5088"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_vy79ZHWhEeW9kaYLrmxGNA" element="_vy79o3WhEeW9kaYLrmxGNA" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79ZXWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_vy79o3WhEeW9kaYLrmxGNA">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_vy79ZnWhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79Z3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79o3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79aHWhEeW9kaYLrmxGNA" type="Name" element="_vy79o3WhEeW9kaYLrmxGNA"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79aXWhEeW9kaYLrmxGNA" type="Parent"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vy79anWhEeW9kaYLrmxGNA" type="PackageContents"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79a3WhEeW9kaYLrmxGNA" x="5724" y="6996"/>
+            </children>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79bHWhEeW9kaYLrmxGNA" element="_vy79qnWhEeW9kaYLrmxGNA" source="_vy79QHWhEeW9kaYLrmxGNA" target="_vy79SHWhEeW9kaYLrmxGNA">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79bXWhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79qnWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79bnWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79qnWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79b3WhEeW9kaYLrmxGNA" type="Kind" element="_vy79qnWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79cHWhEeW9kaYLrmxGNA" type="Name" element="_vy79qnWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79cXWhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79cnWhEeW9kaYLrmxGNA" points="[28, 17, -206, -115]$[234, 132, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79c3WhEeW9kaYLrmxGNA" element="_vy79qXWhEeW9kaYLrmxGNA" source="_vy79QHWhEeW9kaYLrmxGNA" target="_vy79XHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79dHWhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79qXWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79dXWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79qXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79dnWhEeW9kaYLrmxGNA" type="Kind" element="_vy79qXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79d3WhEeW9kaYLrmxGNA" type="Name" element="_vy79qXWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79eHWhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79eXWhEeW9kaYLrmxGNA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79enWhEeW9kaYLrmxGNA" element="_vy79r3WhEeW9kaYLrmxGNA" source="_vy79XHWhEeW9kaYLrmxGNA" target="_vy79UHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79e3WhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79r3WhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79fHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79r3WhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79fXWhEeW9kaYLrmxGNA" type="Kind" element="_vy79r3WhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79fnWhEeW9kaYLrmxGNA" type="Name" element="_vy79r3WhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79f3WhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79gHWhEeW9kaYLrmxGNA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79gXWhEeW9kaYLrmxGNA" element="_vy79sHWhEeW9kaYLrmxGNA" source="_vy79XHWhEeW9kaYLrmxGNA" target="_vy79SHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79gnWhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79sHWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79g3WhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79sHWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79hHWhEeW9kaYLrmxGNA" type="Kind" element="_vy79sHWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79hXWhEeW9kaYLrmxGNA" type="Name" element="_vy79sHWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79hnWhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79h3WhEeW9kaYLrmxGNA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79iHWhEeW9kaYLrmxGNA" element="_vy79sXWhEeW9kaYLrmxGNA" source="_vy79XHWhEeW9kaYLrmxGNA" target="_vy79ZHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79iXWhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79sXWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79inWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79sXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79i3WhEeW9kaYLrmxGNA" type="Kind" element="_vy79sXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79jHWhEeW9kaYLrmxGNA" type="Name" element="_vy79sXWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79jXWhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79jnWhEeW9kaYLrmxGNA" points="[10, 17, -74, -79]$[84, 96, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79j3WhEeW9kaYLrmxGNA" element="_vy79pXWhEeW9kaYLrmxGNA" source="_vy79ZHWhEeW9kaYLrmxGNA" target="_vy79UHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79kHWhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79pXWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79kXWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79pXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79knWhEeW9kaYLrmxGNA" type="Kind" element="_vy79pXWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79k3WhEeW9kaYLrmxGNA" type="Name" element="_vy79pXWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79lHWhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79lXWhEeW9kaYLrmxGNA" points="[-23, 17, 92, -31]$[-115, 48, 0, 0]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_vy79lnWhEeW9kaYLrmxGNA" element="_vy79pnWhEeW9kaYLrmxGNA" source="_vy79ZHWhEeW9kaYLrmxGNA" target="_vy79SHWhEeW9kaYLrmxGNA" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_vy79l3WhEeW9kaYLrmxGNA" type="KindLabel" element="_vy79pnWhEeW9kaYLrmxGNA">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79mHWhEeW9kaYLrmxGNA" type="Stereotype" element="_vy79pnWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79mXWhEeW9kaYLrmxGNA" type="Kind" element="_vy79pnWhEeW9kaYLrmxGNA"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79mnWhEeW9kaYLrmxGNA" type="Name" element="_vy79pnWhEeW9kaYLrmxGNA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_vy79m3WhEeW9kaYLrmxGNA" y="-529"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vy79nHWhEeW9kaYLrmxGNA" points="[12, -5, -142, 43]$[154, -48, 0, 0]"/>
+            </edges>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79nXWhEeW9kaYLrmxGNA" type="Freeform" name="Key Session Layer Elements"/>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79nnWhEeW9kaYLrmxGNA" type="Freeform" name="Key Resource Layer Elements"/>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79n3WhEeW9kaYLrmxGNA" type="Freeform" name="Key Presentation Layer Elements"/>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79oHWhEeW9kaYLrmxGNA" type="Freeform" name="Common Elements"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79oXWhEeW9kaYLrmxGNA" name="Common Elements">
+          <eAnnotations xmi:id="_vy79onWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79oHWhEeW9kaYLrmxGNA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79o3WhEeW9kaYLrmxGNA" name="domain" clientDependency="_vy79pXWhEeW9kaYLrmxGNA _vy79pnWhEeW9kaYLrmxGNA">
+          <eAnnotations xmi:id="_vy79pHWhEeW9kaYLrmxGNA" source="uml2.diagrams"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79pXWhEeW9kaYLrmxGNA" supplier="_vy79q3WhEeW9kaYLrmxGNA" client="_vy79o3WhEeW9kaYLrmxGNA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79pnWhEeW9kaYLrmxGNA" supplier="_vy79oXWhEeW9kaYLrmxGNA" client="_vy79o3WhEeW9kaYLrmxGNA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79p3WhEeW9kaYLrmxGNA" name="presentation" clientDependency="_vy79qXWhEeW9kaYLrmxGNA _vy79qnWhEeW9kaYLrmxGNA">
+          <eAnnotations xmi:id="_vy79qHWhEeW9kaYLrmxGNA" source="uml2.diagrams"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79qXWhEeW9kaYLrmxGNA" supplier="_vy79rXWhEeW9kaYLrmxGNA" client="_vy79p3WhEeW9kaYLrmxGNA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79qnWhEeW9kaYLrmxGNA" supplier="_vy79oXWhEeW9kaYLrmxGNA" client="_vy79p3WhEeW9kaYLrmxGNA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79q3WhEeW9kaYLrmxGNA" name="resource">
+          <eAnnotations xmi:id="_vy79rHWhEeW9kaYLrmxGNA" source="uml2.diagrams"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_vy79rXWhEeW9kaYLrmxGNA" name="control" clientDependency="_vy79r3WhEeW9kaYLrmxGNA _vy79sHWhEeW9kaYLrmxGNA _vy79sXWhEeW9kaYLrmxGNA">
+          <eAnnotations xmi:id="_vy79rnWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79nXWhEeW9kaYLrmxGNA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79r3WhEeW9kaYLrmxGNA" supplier="_vy79q3WhEeW9kaYLrmxGNA" client="_vy79rXWhEeW9kaYLrmxGNA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79sHWhEeW9kaYLrmxGNA" supplier="_vy79oXWhEeW9kaYLrmxGNA" client="_vy79rXWhEeW9kaYLrmxGNA"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_vy79sXWhEeW9kaYLrmxGNA" supplier="_vy79o3WhEeW9kaYLrmxGNA" client="_vy79rXWhEeW9kaYLrmxGNA"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy79snWhEeW9kaYLrmxGNA" name="${project} Package Dependencies">
+        <eAnnotations xmi:id="_vy79s3WhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79tHWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79tHWhEeW9kaYLrmxGNA" type="Freeform" name="${project} Package Dependencies">
+            <children xmi:type="notation:Shape" xmi:id="_vy79tXWhEeW9kaYLrmxGNA" type="Text">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79tnWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79t3WhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79uHWhEeW9kaYLrmxGNA" x="317" y="317" width="10160" height="2222"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy79uXWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Package Dependencies">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79unWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79u3WhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79vHWhEeW9kaYLrmxGNA" x="635" y="635" width="15901" height="1904"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vy79vXWhEeW9kaYLrmxGNA" name="${project} Design Contracts">
+      <eAnnotations xmi:id="_vy79vnWhEeW9kaYLrmxGNA" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy79v3WhEeW9kaYLrmxGNA" name="${project} Design-Level Use Case Realizations">
+        <eAnnotations xmi:id="_vy79wHWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79wXWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79wXWhEeW9kaYLrmxGNA" type="Freeform" name="${project} Design-Level Use-Case Realization Packages">
+            <children xmi:type="notation:Shape" xmi:id="_vy79wnWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;You should populate this diagram with the &quot;functional area use-case realization&quot; packages. &#xD;&#xA;&#xD;&#xA;TO ADD A FUNCTIONAL AREA USE-CASE REALIZATION PACKAGE AND PLACE IT ON THIS DIAGRAM:&#xD;&#xA;&#xD;&#xA;1) Using the Project Explorer, CTRL-Drag the &quot;${functional.area.ucrs}&quot; package from the &quot;Design Building Blocks&quot; package to the &quot;Design Contracts::Design-Level Use-Case Realizations&quot; package&#xD;&#xA;&#xD;&#xA;2) Right-click over the new package use Find/Replace to change &quot;${functional.area.ucrs}&quot; to the desired functional area name (the use of an inverted internet domain naming convention is recommended)&#xD;&#xA;&#xD;&#xA;3) Drag the new package from the Project Explorer onto this diagram.&#xD;&#xA;&#xD;&#xA;You can then double-click on the packages in this diagram to drill down into more detailed diagrams   &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79w3WhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79xHWhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy79xXWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy79xnWhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79x3WhEeW9kaYLrmxGNA" x="1908" y="3816" width="16218" height="8665"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy79yHWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Design-Level Use-Case Realization Packages">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79yXWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy79ynWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy79y3WhEeW9kaYLrmxGNA" x="954" y="954" width="18757" height="1587"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vy79zHWhEeW9kaYLrmxGNA" name="${project} Component Specifications">
+        <eAnnotations xmi:id="_vy79zXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy79znWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy79znWhEeW9kaYLrmxGNA" type="Freeform" name="${project} Component Specification Packages">
+            <children xmi:type="notation:Shape" xmi:id="_vy79z3WhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;You should populate this diagram with the &quot;functional area component specification&quot; packages. &#xD;&#xA;&#xD;&#xA;TO ADD A FUNCTIONAL AREA COMPONENT SPECIFICATION PACKAGE AND PLACE IT ON THIS DIAGRAM:&#xD;&#xA;&#xD;&#xA;1) Using the Project Explorer, CTRL-Drag the &quot;${functional.area.specs}&quot; package from the &quot;Design Building Blocks&quot; package to the &quot;Design Contracts::Component Specifications&quot; package&#xD;&#xA;&#xD;&#xA;2) Right-click over the new package use Find/Replace to change &quot;${functional.area.specs}&quot; to the desired functional area name (the use of an inverted internet domain naming convention is recommended)&#xD;&#xA;&#xD;&#xA;3) Drag the new package from the Project Explorer onto this diagram.&#xD;&#xA;&#xD;&#xA;You can then double-click on the packages in this diagram to drill down into more detailed diagrams   &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy790HWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy790XWhEeW9kaYLrmxGNA" type="Description"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_vy790nWhEeW9kaYLrmxGNA"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy7903WhEeW9kaYLrmxGNA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy791HWhEeW9kaYLrmxGNA" x="1272" y="3498" width="16218" height="9167"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_vy791XWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Component Specification Packages">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy791nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy7913WhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy792HWhEeW9kaYLrmxGNA" x="952" y="635" width="16853" height="1270"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_vy792XWhEeW9kaYLrmxGNA" name="${project} Implementation Designs">
+      <eAnnotations xmi:id="_vy792nWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_vy7923WhEeW9kaYLrmxGNA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vy7923WhEeW9kaYLrmxGNA" type="Freeform" name="${project} Implementation Design Packages">
+          <children xmi:type="notation:Shape" xmi:id="_vy793HWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${project} Implementation Design Packages">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy793XWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy793nWhEeW9kaYLrmxGNA" type="Description"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy7933WhEeW9kaYLrmxGNA" x="793" y="582"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vy794HWhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;You should populate this diagram with the &quot;functional area implementation design&quot; packages. &#xD;&#xA;&#xD;&#xA;TO ADD A FUNCTIONAL AREA IMPLEMENTATION DESIGN PACKAGE AND PLACE IT ON THIS DIAGRAM:&#xD;&#xA;&#xD;&#xA;1) Using the Project Explorer, CTRL-Drag the &quot;${functional.area.impldesign}&quot; package from the &quot;Design Building Blocks&quot; package to the &quot;Implementation Designs&quot; top-level package&#xD;&#xA;&#xD;&#xA;2) Right-click over the new package use Find/Replace to change &quot;${functional.area.impledesign}&quot; to the desired functional area name (the use of an inverted internet domain naming convention is recommended)&#xD;&#xA;&#xD;&#xA;3) Drag the new package from the Project Explorer onto this diagram.&#xD;&#xA;&#xD;&#xA;You can then double-click on the packages in this diagram to drill down into more detailed diagrams   &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy794XWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_vy794nWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_vy7943WhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_vy795HWhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy795XWhEeW9kaYLrmxGNA" x="954" y="4452" width="16218" height="8665"/>
+          </children>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6WGYoHWhEeW9kaYLrmxGNA" name="pl.polsl.aipsi.C1">
+      <eAnnotations xmi:id="_6WGYoXWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_6WGYonWhEeW9kaYLrmxGNA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6WGYonWhEeW9kaYLrmxGNA" type="Class" name="${functional.area.impldesign} Design Elements">
+          <children xmi:type="notation:Shape" xmi:id="_6WGYo3WhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Design Elements">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYpHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYpXWhEeW9kaYLrmxGNA" type="Description"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYpnWhEeW9kaYLrmxGNA" x="636" y="318"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_6WGYp3WhEeW9kaYLrmxGNA" type="Note" fontName="Courier New" description="&#xD;&#xA;Populate this diagram with the key impementation design elements for the functional area&#xD;&#xA;&#xD;&#xA;You can also double-click the packages to drill into layer-specific diagrams  &#xD;&#xA;&#xD;&#xA;(Delete this instructional note once you no longer need it.)" fillColor="13369343" lineColor="51455">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYqHWhEeW9kaYLrmxGNA" type="DiagramName"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYqXWhEeW9kaYLrmxGNA" type="Description"/>
+            <styles xmi:type="notation:TextStyle" xmi:id="_6WGYqnWhEeW9kaYLrmxGNA"/>
+            <styles xmi:type="notation:LineTypeStyle" xmi:id="_6WGYq3WhEeW9kaYLrmxGNA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYrHWhEeW9kaYLrmxGNA" x="1908" y="6996" width="16218" height="4192"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_6WGYrXWhEeW9kaYLrmxGNA" element="_6WGY4nWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_6WGYrnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_6WGY4nWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_6WGYr3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYsHWhEeW9kaYLrmxGNA" type="Stereotype" element="_6WGY4nWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYsXWhEeW9kaYLrmxGNA" type="Name" element="_6WGY4nWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYsnWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6WGYs3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYtHWhEeW9kaYLrmxGNA" x="7950" y="2862"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_6WGYtXWhEeW9kaYLrmxGNA" element="_6WGYzXWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_6WGYtnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_6WGYzXWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_6WGYt3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYuHWhEeW9kaYLrmxGNA" type="Stereotype" element="_6WGYzXWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYuXWhEeW9kaYLrmxGNA" type="Name" element="_6WGYzXWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYunWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6WGYu3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYvHWhEeW9kaYLrmxGNA" x="7950" y="4134"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_6WGYvXWhEeW9kaYLrmxGNA" element="_6WGY1HWhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_6WGYvnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_6WGY1HWhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_6WGYv3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYwHWhEeW9kaYLrmxGNA" type="Stereotype" element="_6WGY1HWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYwXWhEeW9kaYLrmxGNA" type="Name" element="_6WGY1HWhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYwnWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6WGYw3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYxHWhEeW9kaYLrmxGNA" x="7950" y="1590"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_6WGYxXWhEeW9kaYLrmxGNA" element="_6WGY23WhEeW9kaYLrmxGNA" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_6WGYxnWhEeW9kaYLrmxGNA" type="ImageCompartment" element="_6WGY23WhEeW9kaYLrmxGNA">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_6WGYx3WhEeW9kaYLrmxGNA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYyHWhEeW9kaYLrmxGNA" type="Stereotype" element="_6WGY23WhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYyXWhEeW9kaYLrmxGNA" type="Name" element="_6WGY23WhEeW9kaYLrmxGNA"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGYynWhEeW9kaYLrmxGNA" type="Parent"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6WGYy3WhEeW9kaYLrmxGNA" type="PackageContents"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGYzHWhEeW9kaYLrmxGNA" x="7950" y="5406"/>
+          </children>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_B37LUHWiEeW9kaYLrmxGNA" type="Class" name="ClassDiagram1">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6WGYzXWhEeW9kaYLrmxGNA" name="domain">
+        <eAnnotations xmi:id="_6WGYznWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_6WGYz3WhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6WGYz3WhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Domain Layer Design Elements">
+            <children xmi:type="notation:Shape" xmi:id="_6WGY0HWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Domain Layer Design Elements">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY0XWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY0nWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGY03WhEeW9kaYLrmxGNA" x="635" y="317" width="10795" height="3492"/>
+            </children>
+          </contents>
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_85RskIuFEeWPe6WPQK3hIw" type="Class" name="DomainMain">
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_VAEQ8IuHEeWPe6WPQK3hIw" element="_U_-KUIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+              <children xmi:type="notation:DecorationNode" xmi:id="_VAEQ8ouHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_VAEQ84uHEeWPe6WPQK3hIw" width="530" height="530"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VAEQ9IuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VAEQ9YuHEeWPe6WPQK3hIw" type="Kind"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VAEQ9ouHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_VAEQ94uHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_VAEQ-IuHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_VAEQ-YuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_VAEQ-ouHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VAEQ8YuHEeWPe6WPQK3hIw" x="4438" y="2853" width="3515" height="3090"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_Yr30UIuHEeWPe6WPQK3hIw" element="_YrxtsIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_Yr30UouHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_Yr30U4uHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yr30VIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yr30VYuHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Yr30VouHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_Yr30V4uHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_Yr30WIuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_Yr30WYuHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Yr30WouHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yr30UYuHEeWPe6WPQK3hIw" x="3487" y="9193"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_ZGU7sYuHEeWPe6WPQK3hIw" element="_ZGU7sIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_ZGU7s4uHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_ZGU7tIuHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZGU7tYuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZGU7touHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZGU7t4uHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZGU7uIuHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZGU7uYuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZGbCUIuHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZGbCUYuHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZGU7souHEeWPe6WPQK3hIw" x="6657" y="9193"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_kfsnsIuHEeWPe6WPQK3hIw" element="_kfmhEIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kfsnsouHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_kfsns4uHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_kfsntIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_kfsntYuHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_kfsntouHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_kfsnt4uHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_kfsnuIuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_kfsnuYuHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_kfsnuouHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kfsnsYuHEeWPe6WPQK3hIw" x="12997" y="2853"/>
+            </children>
+            <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_wg_PUIuHEeWPe6WPQK3hIw" element="_wg5IsIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wg_PUouHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_wg_PU4uHEeWPe6WPQK3hIw" width="530" height="530"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wg_PVIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wg_PVYuHEeWPe6WPQK3hIw" type="Kind"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wg_PVouHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wg_PV4uHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_wg_PWIuHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_wg_PWYuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_wg_PWouHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wg_PUYuHEeWPe6WPQK3hIw" x="15850" y="7291"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_0AeN8YuHEeWPe6WPQK3hIw" element="_0AeN8IuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_0AeN84uHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_0AeN9IuHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0AeN9YuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0AeN9ouHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0AeN94uHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0AeN-IuHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0AeN-YuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0AeN-ouHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_0AqbMIuHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0AeN8ouHEeWPe6WPQK3hIw" x="12680" y="11095"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_0_yV4YuHEeWPe6WPQK3hIw" element="_0_yV4IuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_0_4cgIuHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_0_4cgYuHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0_4cgouHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0_4cg4uHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_0_4chIuHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0_4chYuHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0_4chouHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_0_4ch4uHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_0_4ciIuHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0_yV4ouHEeWPe6WPQK3hIw" x="16167" y="11095"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_4XuiEIuHEeWPe6WPQK3hIw" element="_4XobcIuHEeWPe6WPQK3hIw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_4XuiEouHEeWPe6WPQK3hIw" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_4XuiE4uHEeWPe6WPQK3hIw" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4XuiFIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4XuiFYuHEeWPe6WPQK3hIw" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_4XuiFouHEeWPe6WPQK3hIw" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_4XuiF4uHEeWPe6WPQK3hIw" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_4XuiGIuHEeWPe6WPQK3hIw" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_4XuiGYuHEeWPe6WPQK3hIw" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4XuiGouHEeWPe6WPQK3hIw" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XuiEYuHEeWPe6WPQK3hIw" x="20605" y="11095"/>
+            </children>
+            <element xsi:nil="true"/>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_b_COMIuHEeWPe6WPQK3hIw" element="_b-8HkIuHEeWPe6WPQK3hIw" source="_Yr30UIuHEeWPe6WPQK3hIw" target="_VAEQ8IuHEeWPe6WPQK3hIw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_b_COMouHEeWPe6WPQK3hIw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_b_CONIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_b_CONYuHEeWPe6WPQK3hIw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b_COM4uHEeWPe6WPQK3hIw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b_COMYuHEeWPe6WPQK3hIw" points="[13, -24, -113, 176]$[64, -144, -62, 56]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_cuHhwIuHEeWPe6WPQK3hIw" element="_cuBbIIuHEeWPe6WPQK3hIw" source="_ZGU7sYuHEeWPe6WPQK3hIw" target="_VAEQ8IuHEeWPe6WPQK3hIw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_cuHhwouHEeWPe6WPQK3hIw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_cuHhxIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_cuHhxYuHEeWPe6WPQK3hIw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cuHhw4uHEeWPe6WPQK3hIw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cuHhwYuHEeWPe6WPQK3hIw" points="[-10, -24, 64, 172]$[-139, -204, -65, -8]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_6w6nAIuHEeWPe6WPQK3hIw" element="_6woTIIuHEeWPe6WPQK3hIw" source="_0AeN8YuHEeWPe6WPQK3hIw" target="_wg_PUIuHEeWPe6WPQK3hIw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_6w6nAouHEeWPe6WPQK3hIw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_6w6nBIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_6w6nBYuHEeWPe6WPQK3hIw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6w6nA4uHEeWPe6WPQK3hIw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6w6nAYuHEeWPe6WPQK3hIw" points="[22, -24, -122, 114]$[79, -107, -65, 31]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_7baVgIuHEeWPe6WPQK3hIw" element="_7bUO4IuHEeWPe6WPQK3hIw" source="_0_yV4YuHEeWPe6WPQK3hIw" target="_wg_PUIuHEeWPe6WPQK3hIw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_7baVgouHEeWPe6WPQK3hIw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_7baVhIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_7baVhYuHEeWPe6WPQK3hIw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7baVg4uHEeWPe6WPQK3hIw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7baVgYuHEeWPe6WPQK3hIw" points="[-5, -24, 2, 114]$[-86, -143, -79, -5]"/>
+            </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8EGGIIuHEeWPe6WPQK3hIw" element="_8D__gIuHEeWPe6WPQK3hIw" source="_4XuiEIuHEeWPe6WPQK3hIw" target="_wg_PUIuHEeWPe6WPQK3hIw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_8EGGIouHEeWPe6WPQK3hIw" type="NameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8EGGJIuHEeWPe6WPQK3hIw" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_8EGGJYuHEeWPe6WPQK3hIw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EGGI4uHEeWPe6WPQK3hIw" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8EGGIYuHEeWPe6WPQK3hIw" points="[-26, -24, 158, 113]$[-104, -109, 80, 28]"/>
+            </edges>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_U_-KUIuHEeWPe6WPQK3hIw" name="Uzytkownik"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YrxtsIuHEeWPe6WPQK3hIw" name="Klient" clientDependency="_b-8HkIuHEeWPe6WPQK3hIw">
+          <interfaceRealization xmi:id="_b-8HkIuHEeWPe6WPQK3hIw" supplier="_U_-KUIuHEeWPe6WPQK3hIw" client="_YrxtsIuHEeWPe6WPQK3hIw" contract="_U_-KUIuHEeWPe6WPQK3hIw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ZGU7sIuHEeWPe6WPQK3hIw" name="Sprzedawca" clientDependency="_cuBbIIuHEeWPe6WPQK3hIw">
+          <interfaceRealization xmi:id="_cuBbIIuHEeWPe6WPQK3hIw" supplier="_U_-KUIuHEeWPe6WPQK3hIw" client="_ZGU7sIuHEeWPe6WPQK3hIw" contract="_U_-KUIuHEeWPe6WPQK3hIw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kfmhEIuHEeWPe6WPQK3hIw" name="Zamowienie"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wg5IsIuHEeWPe6WPQK3hIw" name="Dokument finansowy"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0AeN8IuHEeWPe6WPQK3hIw" name="Faktura VAT" clientDependency="_6woTIIuHEeWPe6WPQK3hIw">
+          <interfaceRealization xmi:id="_6woTIIuHEeWPe6WPQK3hIw" supplier="_wg5IsIuHEeWPe6WPQK3hIw" client="_0AeN8IuHEeWPe6WPQK3hIw" contract="_wg5IsIuHEeWPe6WPQK3hIw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0_yV4IuHEeWPe6WPQK3hIw" name="Faktura PRO-forma" clientDependency="_7bUO4IuHEeWPe6WPQK3hIw">
+          <interfaceRealization xmi:id="_7bUO4IuHEeWPe6WPQK3hIw" supplier="_wg5IsIuHEeWPe6WPQK3hIw" client="_0_yV4IuHEeWPe6WPQK3hIw" contract="_wg5IsIuHEeWPe6WPQK3hIw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4XobcIuHEeWPe6WPQK3hIw" name="Korekta faktury VAT" clientDependency="_8D__gIuHEeWPe6WPQK3hIw">
+          <interfaceRealization xmi:id="_8D__gIuHEeWPe6WPQK3hIw" supplier="_wg5IsIuHEeWPe6WPQK3hIw" client="_4XobcIuHEeWPe6WPQK3hIw" contract="_wg5IsIuHEeWPe6WPQK3hIw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6WGY1HWhEeW9kaYLrmxGNA" name="presentation">
+        <eAnnotations xmi:id="_6WGY1XWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_6WGY1nWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6WGY1nWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Presentation Layer Design Elements">
+            <children xmi:type="notation:Shape" xmi:id="_6WGY13WhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} &#xD;sentation Layer Design Elements for">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY2HWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY2XWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGY2nWhEeW9kaYLrmxGNA" x="952" y="635" width="13016" height="2222"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6WGY23WhEeW9kaYLrmxGNA" name="resource">
+        <eAnnotations xmi:id="_6WGY3HWhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_6WGY3XWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6WGY3XWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Resource Layer Design Elements">
+            <children xmi:type="notation:Shape" xmi:id="_6WGY3nWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Resource Layer Design Elements">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY33WhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY4HWhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGY4XWhEeW9kaYLrmxGNA" x="952" y="317" width="12064" height="2222"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6WGY4nWhEeW9kaYLrmxGNA" name="control">
+        <eAnnotations xmi:id="_6WGY43WhEeW9kaYLrmxGNA" source="uml2.diagrams" references="_6WGY5HWhEeW9kaYLrmxGNA">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6WGY5HWhEeW9kaYLrmxGNA" type="Freeform" name="${functional.area.impldesign} Control Layer Design Elements">
+            <children xmi:type="notation:Shape" xmi:id="_6WGY5XWhEeW9kaYLrmxGNA" type="Text" fontHeight="22" description="${functional.area.impldesign} Control Layer Design Elements">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY5nWhEeW9kaYLrmxGNA" type="DiagramName"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_6WGY53WhEeW9kaYLrmxGNA" type="Description"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6WGY6HWhEeW9kaYLrmxGNA" x="952" y="317" width="10795" height="2540"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_vy795nWhEeW9kaYLrmxGNA">
+      <eAnnotations xmi:id="_vy7953WhEeW9kaYLrmxGNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_vy796HWhEeW9kaYLrmxGNA">
+      <eAnnotations xmi:id="_vy796XWhEeW9kaYLrmxGNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_vy796nWhEeW9kaYLrmxGNA">
+      <eAnnotations xmi:id="_vy7963WhEeW9kaYLrmxGNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+  </uml:Model>
+  <Default:Perspective xmi:id="_vy797HWhEeW9kaYLrmxGNA" base_Package="_vy79PHWhEeW9kaYLrmxGNA"/>
+  <Default:Perspective xmi:id="_vy797XWhEeW9kaYLrmxGNA" base_Package="_vy79snWhEeW9kaYLrmxGNA"/>
+</xmi:XMI>
