@@ -387,7 +387,7 @@
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_HXOyAIuuEeW2f7Gzkh4pnw" element="_HWvp04uuEeW2f7Gzkh4pnw" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HXOyAYuuEeW2f7Gzkh4pnw" x="-1" y="1453" height="1453"/>
                   </children>
-                  <children xmi:type="notation:Shape" xmi:id="_Si71cIuuEeW2f7Gzkh4pnw" type="Note" fontHeight="8" description="&lt;p>Zrobic diagram sekwencji - do tego co aktywnosci&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+                  <children xmi:type="notation:Shape" xmi:id="_Si71cIuuEeW2f7Gzkh4pnw" type="Note" fontHeight="8" description="&lt;p>Zrobic diagram sekwencji - do tego co aktywnosci&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_Si71dIuuEeW2f7Gzkh4pnw" type="DiagramName">
                       <element xsi:nil="true"/>
                     </children>

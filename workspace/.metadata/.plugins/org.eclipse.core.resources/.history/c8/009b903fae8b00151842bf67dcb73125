@@ -382,22 +382,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_GaMiBYuuEeW2f7Gzkh4pnw" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_GaMiBouuEeW2f7Gzkh4pnw" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_GaMiB4uuEeW2f7Gzkh4pnw" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GaMiAouuEeW2f7Gzkh4pnw" x="-5" y="3250" width="3332" height="9525"/>
-                  </children>
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_HXOyAIuuEeW2f7Gzkh4pnw" element="_HWvp04uuEeW2f7Gzkh4pnw" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HXOyAYuuEeW2f7Gzkh4pnw" x="-1" y="1453" height="1453"/>
-                  </children>
-                  <children xmi:type="notation:Shape" xmi:id="_Si71cIuuEeW2f7Gzkh4pnw" type="Note" fontHeight="8" description="&lt;p>Zrobic diagram sekwencji - do tego co aktywnosci&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Si71dIuuEeW2f7Gzkh4pnw" type="DiagramName">
-                      <element xsi:nil="true"/>
-                    </children>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Si71dYuuEeW2f7Gzkh4pnw" type="Description">
-                      <element xsi:nil="true"/>
-                    </children>
-                    <styles xmi:type="notation:TextStyle" xmi:id="_Si71cYuuEeW2f7Gzkh4pnw"/>
-                    <styles xmi:type="notation:LineTypeStyle" xmi:id="_Si71couuEeW2f7Gzkh4pnw"/>
-                    <element xsi:nil="true"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Si71c4uuEeW2f7Gzkh4pnw" x="9960" y="3884" width="7934" height="951"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GaMiAouuEeW2f7Gzkh4pnw" x="-4126" y="80" width="3332" height="9525"/>
                   </children>
                   <layoutConstraint xmi:type="notation:Ratio" xmi:id="_vy78-HWhEeW9kaYLrmxGNA"/>
                 </children>
