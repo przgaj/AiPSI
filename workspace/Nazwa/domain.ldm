@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_4l1DsJESEeWXV6YYfk2znw" name="domain" targetNamespace="domain.ldm" contents="_4l1DsZESEeWXV6YYfk2znw _4l1DupESEeWXV6YYfk2znw _4l1Du5ESEeWXV6YYfk2znw _4l1DvZESEeWXV6YYfk2znw _4l1D15ESEeWXV6YYfk2znw _4l1D2pESEeWXV6YYfk2znw _4l1D3pESEeWXV6YYfk2znw _4l1D4pESEeWXV6YYfk2znw _4l1D45ESEeWXV6YYfk2znw _4l1D5ZESEeWXV6YYfk2znw _4l1D6ZESEeWXV6YYfk2znw _4l1D7pESEeWXV6YYfk2znw _4l1D9pESEeWXV6YYfk2znw _4l1D-5ESEeWXV6YYfk2znw _4l1D_JESEeWXV6YYfk2znw _4l1EB5ESEeWXV6YYfk2znw _4l1ECZESEeWXV6YYfk2znw"/>
+  <LogicalDataModel:Entity xmi:id="_4l1DsZESEeWXV6YYfk2znw" name="Klient" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1DuZESEeWXV6YYfk2znw _4l1EBZESEeWXV6YYfk2znw" relationships="_4l1Dt5ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1DspESEeWXV6YYfk2znw" name="Nazwa firmy"/>
+    <attributes xmi:id="_4l1Ds5ESEeWXV6YYfk2znw" name="NIP"/>
+    <attributes xmi:id="_4l1DtJESEeWXV6YYfk2znw" name="PESEL"/>
+    <attributes xmi:id="_4l1DtZESEeWXV6YYfk2znw" name="Adres"/>
+    <attributes xmi:id="_4l1DtpESEeWXV6YYfk2znw" name="Telefon"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1Dt5ESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" existenceOptional="true" owningEntity="_4l1DsZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1DuJESEeWXV6YYfk2znw" verbPhrase="klient" entity="_4l1Du5ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1DuZESEeWXV6YYfk2znw" verbPhrase="zamowienie" cardinality="ONE" entity="_4l1DsZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1DupESEeWXV6YYfk2znw" name="Sprzedawca" package="_4l1DsJESEeWXV6YYfk2znw"/>
+  <LogicalDataModel:Entity xmi:id="_4l1Du5ESEeWXV6YYfk2znw" name="Zamowienie" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1DyZESEeWXV6YYfk2znw _4l1DuJESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1DvJESEeWXV6YYfk2znw" name="ID"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1DvZESEeWXV6YYfk2znw" name="Produkt" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D4JESEeWXV6YYfk2znw _4l1DxJESEeWXV6YYfk2znw _4l1Dx5ESEeWXV6YYfk2znw _4l1DypESEeWXV6YYfk2znw _4l1DzZESEeWXV6YYfk2znw _4l1D0JESEeWXV6YYfk2znw _4l1D05ESEeWXV6YYfk2znw _4l1D1pESEeWXV6YYfk2znw" relationships="_4l1DwpESEeWXV6YYfk2znw _4l1DxZESEeWXV6YYfk2znw _4l1DyJESEeWXV6YYfk2znw _4l1Dy5ESEeWXV6YYfk2znw _4l1DzpESEeWXV6YYfk2znw _4l1D0ZESEeWXV6YYfk2znw _4l1D1JESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1DvpESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1Dv5ESEeWXV6YYfk2znw" name="Nazwa"/>
+    <attributes xmi:id="_4l1DwJESEeWXV6YYfk2znw" name="Cena"/>
+    <attributes xmi:id="_4l1DwZESEeWXV6YYfk2znw" name="Dostepnosc"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1DwpESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1Dw5ESEeWXV6YYfk2znw" entity="_4l1D15ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1DxJESEeWXV6YYfk2znw" verbPhrase="producent" cardinality="ZERO_TO_MANY" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1DxZESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1DxpESEeWXV6YYfk2znw" verbPhrase="produkt" entity="_4l1D2pESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1Dx5ESEeWXV6YYfk2znw" verbPhrase="typ produktu" cardinality="ZERO_TO_MANY" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1DyJESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1DyZESEeWXV6YYfk2znw" verbPhrase="produkt" entity="_4l1Du5ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1DypESEeWXV6YYfk2znw" cardinality="ZERO_TO_MANY" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1Dy5ESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1DzJESEeWXV6YYfk2znw" verbPhrase="produkt" entity="_4l1D5ZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1DzZESEeWXV6YYfk2znw" verbPhrase="pozycje faktury" cardinality="ONE" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1DzpESEeWXV6YYfk2znw" relationshipType="NON_SPECIFIC" existenceOptional="true" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1Dz5ESEeWXV6YYfk2znw" verbPhrase="produkt" cardinality="ZERO_TO_MANY" entity="_4l1D45ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D0JESEeWXV6YYfk2znw" cardinality="ZERO_TO_MANY" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1D0ZESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D0pESEeWXV6YYfk2znw" verbPhrase="produkt" entity="_4l1D9pESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D05ESEeWXV6YYfk2znw" cardinality="ONE" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1D1JESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1DvZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D1ZESEeWXV6YYfk2znw" verbPhrase="produkt" entity="_4l1EB5ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D1pESEeWXV6YYfk2znw" cardinality="ZERO_TO_MANY" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1D15ESEeWXV6YYfk2znw" name="Producent" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1Dw5ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D2JESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1D2ZESEeWXV6YYfk2znw" name="Nazwa"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1D2pESEeWXV6YYfk2znw" name="Typ produktu" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1DxpESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D25ESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1D3JESEeWXV6YYfk2znw" name="Nazwa"/>
+    <attributes xmi:id="_4l1D3ZESEeWXV6YYfk2znw" name="Opis"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1D3pESEeWXV6YYfk2znw" name="Definicja atrybutu produktu relacyjnego" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D4ZESEeWXV6YYfk2znw" relationships="_4l1D35ESEeWXV6YYfk2znw"/>
+  <LogicalDataModel:Relationship xmi:id="_4l1D35ESEeWXV6YYfk2znw" owningEntity="_4l1D3pESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D4JESEeWXV6YYfk2znw" entity="_4l1DvZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D4ZESEeWXV6YYfk2znw" cardinality="ZERO_TO_MANY" entity="_4l1D3pESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1D4pESEeWXV6YYfk2znw" name="Kierownik" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D7JESEeWXV6YYfk2znw"/>
+  <LogicalDataModel:Entity xmi:id="_4l1D45ESEeWXV6YYfk2znw" name="Zestaw" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1Dz5ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D5JESEeWXV6YYfk2znw" name="ID"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1D5ZESEeWXV6YYfk2znw" name="Pozycje faktury" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1DzJESEeWXV6YYfk2znw _4l1D9JESEeWXV6YYfk2znw _4l1ED5ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D5pESEeWXV6YYfk2znw" name="Kwota"/>
+    <attributes xmi:id="_4l1D55ESEeWXV6YYfk2znw" name="VAT"/>
+    <attributes xmi:id="_4l1D6JESEeWXV6YYfk2znw" name="Nazwa"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1D6ZESEeWXV6YYfk2znw" name="Zapytanie" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D7ZESEeWXV6YYfk2znw _4l1D-ZESEeWXV6YYfk2znw" relationships="_4l1D65ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D6pESEeWXV6YYfk2znw" name="ID"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1D65ESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1D6ZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D7JESEeWXV6YYfk2znw" verbPhrase="zapytanie ofertowe" entity="_4l1D4pESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D7ZESEeWXV6YYfk2znw" verbPhrase="kierownik" cardinality="ZERO_TO_MANY" entity="_4l1D6ZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1D7pESEeWXV6YYfk2znw" name="Usluga" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D9ZESEeWXV6YYfk2znw" relationships="_4l1D85ESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D75ESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1D8JESEeWXV6YYfk2znw" name="Nazwa"/>
+    <attributes xmi:id="_4l1D8ZESEeWXV6YYfk2znw" name="Kwota"/>
+    <attributes xmi:id="_4l1D8pESEeWXV6YYfk2znw" name="VAT"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1D85ESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1D7pESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D9JESEeWXV6YYfk2znw" verbPhrase="usluga" entity="_4l1D5ZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D9ZESEeWXV6YYfk2znw" cardinality="ONE" entity="_4l1D7pESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1D9pESEeWXV6YYfk2znw" name="Pozycje zapytania" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D0pESEeWXV6YYfk2znw _4l1D-pESEeWXV6YYfk2znw" relationships="_4l1D-JESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D95ESEeWXV6YYfk2znw" name="ilosc"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1D-JESEeWXV6YYfk2znw" owningEntity="_4l1D9pESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1D-ZESEeWXV6YYfk2znw" verbPhrase="pozycje zapytania" entity="_4l1D6ZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1D-pESEeWXV6YYfk2znw" verbPhrase="zapytanie" cardinality="ZERO_TO_MANY" entity="_4l1D9pESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1D-5ESEeWXV6YYfk2znw" name="Serwisant" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1EApESEeWXV6YYfk2znw"/>
+  <LogicalDataModel:Entity xmi:id="_4l1D_JESEeWXV6YYfk2znw" name="Rejestr napraw" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1EA5ESEeWXV6YYfk2znw _4l1EBpESEeWXV6YYfk2znw" relationships="_4l1EAZESEeWXV6YYfk2znw _4l1EBJESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1D_ZESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1D_pESEeWXV6YYfk2znw" name="Status"/>
+    <attributes xmi:id="_4l1D_5ESEeWXV6YYfk2znw" name="Data przyjecia"/>
+    <attributes xmi:id="_4l1EAJESEeWXV6YYfk2znw" name="Koszt"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1EAZESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1D_JESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1EApESEeWXV6YYfk2znw" verbPhrase="rejestr napraw" entity="_4l1D-5ESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1EA5ESEeWXV6YYfk2znw" verbPhrase="serwisant" cardinality="ZERO_TO_MANY" entity="_4l1D_JESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_4l1EBJESEeWXV6YYfk2znw" relationshipType="NON_IDENTIFYING" owningEntity="_4l1D_JESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1EBZESEeWXV6YYfk2znw" entity="_4l1DsZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1EBpESEeWXV6YYfk2znw" verbPhrase="klient" cardinality="ZERO_TO_MANY" entity="_4l1D_JESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_4l1EB5ESEeWXV6YYfk2znw" name="Zapytanie ofertowe klienta" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1D1ZESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1ECJESEeWXV6YYfk2znw" name="ID"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_4l1ECZESEeWXV6YYfk2znw" name="Faktura" package="_4l1DsJESEeWXV6YYfk2znw" relationshipEnds="_4l1EEJESEeWXV6YYfk2znw" relationships="_4l1EDpESEeWXV6YYfk2znw">
+    <attributes xmi:id="_4l1ECpESEeWXV6YYfk2znw" name="ID"/>
+    <attributes xmi:id="_4l1EC5ESEeWXV6YYfk2znw" name="Kwota"/>
+    <attributes xmi:id="_4l1EDJESEeWXV6YYfk2znw" name="Vat"/>
+    <attributes xmi:id="_4l1EDZESEeWXV6YYfk2znw" name="Numer faktury"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_4l1EDpESEeWXV6YYfk2znw" owningEntity="_4l1ECZESEeWXV6YYfk2znw">
+    <relationshipEnds xmi:id="_4l1ED5ESEeWXV6YYfk2znw" verbPhrase="faktura" entity="_4l1D5ZESEeWXV6YYfk2znw"/>
+    <relationshipEnds xmi:id="_4l1EEJESEeWXV6YYfk2znw" cardinality="ZERO_TO_MANY" entity="_4l1ECZESEeWXV6YYfk2znw"/>
+  </LogicalDataModel:Relationship>
+</xmi:XMI>

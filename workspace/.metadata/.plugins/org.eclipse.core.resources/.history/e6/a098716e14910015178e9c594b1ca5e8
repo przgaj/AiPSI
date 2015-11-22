@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<LogicalDataModel:Package xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.7.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore" xmi:id="_JS958JEUEeWuPduRn1mANw" name="domain" targetNamespace="domain.ldm"/>
